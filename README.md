@@ -40,7 +40,7 @@ Define $m$ is the dimension of objective space, and $n$ is the dimension of deci
 $$
 \begin{aligned}
 &g3(x)=1+\sum_{i=m}^n2(x_i+(x_{i-1}-0.5)^2-1)^2\\
-&f_3(x)=\sqrt{2}g_3x_1\\
+&f_1(x)=\sqrt{2}g_3x_1\\
 &f_2(x)=g_3\sqrt{2-(f_1/g_3)^2}\\
 &\text{subject to}\\
 &c_1(x)=(3-f_1^2-f_2)(3-2f_1^2-f_2)\geq0\\
