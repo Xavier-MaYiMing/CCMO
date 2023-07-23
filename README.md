@@ -40,7 +40,6 @@ Define $m$ is the dimension of objective space, and $n$ is the dimension of deci
 $$
 \begin{aligned}
 &g3(x)=1+\sum_{i=m}^n2(x_i+(x_{i-1}-0.5)^2-1)^2\\
-&\left\{
 \begin{aligned}
 &f_3(x)=\sqrt{2}g_3x_1\\
 &f_2(x)=g_3\sqrt{2-(f_1/g_3)^2}\\
@@ -51,7 +50,6 @@ $$
 &c_4(x)=(2.07-0.23f_1^2-f_2)(0.63-0.07f_1^2-f_2)\leq0\\
 &0\leq x_i\leq 1, \quad i=1,\cdots,n
 \end{aligned}
-\right.
 \end{aligned}
 $$
 
